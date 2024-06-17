@@ -1,8 +1,8 @@
-@import "XL.css";
-@import "Lg.css";
-@import "Md.css";
-@import "Sm.css";
-@import "Xs.css";
+@import "./XL.css";
+@import "./Lg.css";
+@import "./Md.css";
+@import "./Sm.css";
+@import "./Xs.css";
 
 @font-face {
     font-family:"b-yekan" ;
