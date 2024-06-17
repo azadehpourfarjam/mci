@@ -1,0 +1,89 @@
+@import "XL.css";
+@import "Lg.css";
+@import "Md.css";
+@import "Sm.css";
+@import "Xs.css";
+
+@font-face {
+    font-family:"b-yekan" ;
+    src: url("../fonts/Yekan.ttf"),
+    url("../fonts/Yekan.woff"),
+    url("../fonts/Yekan.woff2"),
+    url("../fonts/Yekan.eot");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "b-yekan";
+    min-height: 1000px;
+    /*overflow-x: hidden;*/
+}
+
+.logo{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.d-block{
+    display: block;
+}
+.boxNav{
+    border-right: 2px solid lightgray;
+    box-sizing: border-box;
+}
+
+/* slider */
+
+.slider{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+ .swiper-pagination span.swiper-pagination-bullet{
+    width: 20px !important;
+    height: 20px !important;
+    border: 2px solid white !important;
+    box-sizing: border-box;
+    background-color:black !important;
+}
+  span.swiper-pagination-bullet-active{
+      width: 20px !important;
+      height: 20px !important;
+      border: 2px solid chocolate !important;
+      background-color: white !important;
+      box-sizing: border-box;
+}
+
+.slider .swiper{
+    width: 100%;
+    box-shadow: 2px 2px 2px lightgray , -2px -2px 2px lightgray;
+    box-sizing: border-box;
+}
+.slider.swiper-slide{
+    width: 100% !important;
+}
+.swiper-slide>a{
+    display: block;
+    width: 100%;
+}
+.swiper-slide>a>img{
+    display: block;
+    width: 100%;
+}
+.newItem{
+    cursor: pointer;
+}
+.more>span.one{
+    transition: all .5s ease;
+}
+
+/* tazeh */
+
+
+
+
+
+
+
+
