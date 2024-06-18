@@ -1,7 +1,6 @@
 
 @media (min-width: 769px) and (max-width: 992px){
     body{
-        overflow-x: hidden;
     }
     .header{
         padding-left: 20px;
