@@ -16,7 +16,6 @@
         align-items: center;
         direction: rtl;
         background-color: rgba(0, 0, 0, 0.5);
-        position: relative;
     }
     .header>.logo{
         display: flex;
@@ -471,28 +470,26 @@
         margin-top: 20px;
         margin-bottom: 20px;
         box-sizing: border-box;
-        display: flex;
-        align-items: center;
-        direction: rtl;
+        display: block;
     }
     .newBox{
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 50px 10px;
         box-sizing: border-box;
-        flex-direction: column;
     }
     .newBox>img{
-        width: 200px;
-        height: 100px;
+        width: 300px;
+        height: 150px;
     }
     .newBox>h1{
-        width: 100px;
+        width: 100%;
         color: #fff;
         font-size: 30px;
         font-weight: 600;
         margin-top: 10px;
+        text-align: center;
     }
     .test{
         width: 400px;
@@ -613,13 +610,14 @@
         direction: rtl;
     }
     .item>p{
-        height: 50px;
-        line-height: 50px;
+        height: 30px;
+        line-height: 30px;
         text-align: right;
         color: #111;
         font-size: 15px;
         font-weight: 600;
         box-sizing: border-box;
+        margin-bottom: 30px;
     }
     .item>.calenderBox{
         box-sizing: border-box;
@@ -680,6 +678,8 @@
         margin-bottom: 20px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         direction: rtl;
     }
     .blockIcon{

@@ -12,7 +12,6 @@
         align-items: center;
         direction: rtl;
         background-color: rgba(0, 0, 0, 0.5);
-        position: relative;
     }
     .header>.logo{
         display: flex;
